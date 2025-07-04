@@ -1,15 +1,15 @@
+
 {
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build cpp",
+      "label": "build active cpp file",
       "type": "shell",
       "command": "g++",
       "args": [
-        "-g",
         "${file}",
         "-o",
-        "${fileDirname}/outDebug"
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
       "group": {
         "kind": "build",

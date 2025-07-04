@@ -9,6 +9,7 @@ int findMax(vector<int>& arr) {
     }
     return maxVal;
 }
+
 int main() {
     vector<int> arr = {1, 5, 3, 9, 2};
     cout << "Max Element: " << findMax(arr) << endl;
