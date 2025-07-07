@@ -13,4 +13,4 @@ int binpow(int a, int b) {
 
 int main() {
     cout << binpow(2, 10);
-}
+}   
