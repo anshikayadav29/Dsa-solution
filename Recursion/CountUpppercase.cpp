@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int countUpper(string s, int i) {
@@ -7,6 +8,6 @@ int countUpper(string s, int i) {
 }
 
 int main() {
-    cout << countUpper("AnshiKa");
+    cout << countUpper("AnshiKa", 0);
     return 0;
 }
