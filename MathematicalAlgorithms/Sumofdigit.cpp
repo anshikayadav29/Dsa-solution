@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int sumDigits(int n) {
     int sum = 0;
     while (n) {
@@ -9,7 +8,6 @@ int sumDigits(int n) {
     }
     return sum;
 }
-
 int main() {
     cout << sumDigits(1234);
 }
