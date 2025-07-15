@@ -1,4 +1,3 @@
-// Sort array with 0s, 1s, and 2s using Dutch National Flag Algorithm
 
 #include<bits/stdc++.h>
 using namespace std;
