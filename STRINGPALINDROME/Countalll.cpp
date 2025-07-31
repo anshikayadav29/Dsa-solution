@@ -16,3 +16,4 @@ int main() {
     string s = "aaa";
     cout << countSubstrings(s);  // 6
 }
+
